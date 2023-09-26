@@ -81,17 +81,19 @@ li{
         margin-left: 7px;
         margin-bottom: 10px;
 }
-.item::before{
+/*gestione check "v"*/
+.v::before{
     content: '✓';
     color: #3bcab1;
     border: 1px solid #3bcab1;
     border-radius: 50%;
     margin-right: 4px;
 }
+/*fine gestione check "v"*/
         /* fine prima lista*/
 
         /*inizio seconda lista*/
-.qgoals::after{
+.qgoals::after{  
     content: 'Q1 goals';
     background-color: #ab5de6;
     color: white;
@@ -100,14 +102,15 @@ li{
     margin-left: 7px;
     margin-bottom: 10px;
 }
-.inteview::before{
+/*gestione check "x"*/
+.x::before{
     content: '☓';
     color: #ff4141;
     border: 1px solid #ff4141;
     border-radius: 50%;
     margin-right: 4px;
 }
-
+/*fine gestione check "x"*/
 .inteview::after{
     content: 'Recruiting';
     background-color: #2cc6ab;
@@ -128,7 +131,28 @@ li{
     margin-bottom: 10px;
 }
         /*fine seconda lista*/
+.website::after{
+    content: 'Website';
+    background-color: #ec4a9d;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
 
+.sales::after{
+    content: 'Sales';
+    background-color: #a3d116;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+        /*inizio terza lista*/
+
+        /*fine terza lista*/
     /* fine lista*/
 /*
 --- fine main---
