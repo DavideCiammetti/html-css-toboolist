@@ -35,8 +35,9 @@ body{
 main{
     margin-top: 60px;
     margin-left: 180px;
-    margin-right: 180px;
     background-color: #ffffff;
+    border-radius: 7px;
+    width: 600px;
 }
 
 button{
@@ -69,15 +70,18 @@ li{
 }
 .task1{
     font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
 }
-.Editorial-item::after{
+.Editorial::after{
         content: 'editorial';
         background-color: #09a9ed;
+        color: white;
         border-radius: 3px;
         padding: 2px;
         margin-left: 7px;
+        margin-bottom: 10px;
 }
-.Editorial-item::before{
+.item::before{
     content: '✓';
     color: #3bcab1;
     border: 1px solid #3bcab1;
@@ -87,7 +91,42 @@ li{
         /* fine prima lista*/
 
         /*inizio seconda lista*/
+.qgoals::after{
+    content: 'Q1 goals';
+    background-color: #ab5de6;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.inteview::before{
+    content: '☓';
+    color: #ff4141;
+    border: 1px solid #ff4141;
+    border-radius: 50%;
+    margin-right: 4px;
+}
 
+.inteview::after{
+    content: 'Recruiting';
+    background-color: #2cc6ab;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.mobile::after{
+    content: 'Mobile';
+    background-color: #ff9b00;
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
         /*fine seconda lista*/
 
     /* fine lista*/
